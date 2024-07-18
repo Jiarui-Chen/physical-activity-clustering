@@ -11,17 +11,16 @@ git push -u origin main
 ```
 
 
-### Create and switch to the branch
+### Create, switch to and push the branch
 ```
 git checkout -b eda
-git checkout -b data-preprocessing
-git checkout -b clustering-model
-git checkout -b evaluation
+git push -u origin eda
 ```
 
 
 ### Branch sync
 ```
+git fectch origin
 git checkout -b eda origin/eda
 ```
 
@@ -36,15 +35,11 @@ git commit -m "feat: Perform initial exploratory data analysis"
 ### Push Changes
 ```
 git push origin eda
-git push origin data-preprocessing
-git push origin clustering-model
-git push origin evaluation
 ```
 
 
 ### Pull Changes
 ```
-git fectch origin
 git checkout -b eda
 git pull origin eda
 ```
