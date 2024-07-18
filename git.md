@@ -20,6 +20,12 @@ git checkout -b evaluation
 ```
 
 
+### Branch sync
+```
+git checkout -b eda origin/eda
+```
+
+
 ### Commit tasks
 ```
 git add eda_notebook.ipynb
