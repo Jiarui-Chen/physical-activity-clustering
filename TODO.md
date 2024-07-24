@@ -12,3 +12,5 @@
 2. Consider EDA on transformed data; Approach clustering
 
 3. Determine whether subject_id column should be kept in preprocessed data
+
+4. Consider do PCA for hand, ankle, etc. separately and then combine all kept components. 
