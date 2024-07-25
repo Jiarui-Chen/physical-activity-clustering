@@ -45,6 +45,24 @@ git pull origin eda
 ```
 
 
+### Stash Changes
+```
+git stash
+
+git stash save "Your stash message"
+
+git stash apply
+
+git stash list
+
+git stash pop
+
+git stash apply stash@{n}
+
+git stash drop stash@{n}
+```
+
+
 ### On GitHub or GitLab, create a pull request to merge the branch into main
 
 
