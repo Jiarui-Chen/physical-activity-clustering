@@ -11,21 +11,21 @@ git push -u origin main
 ```
 
 
-### Create, switch to and push the branch
+### Create, Switch to and Push Branch
 ```
 git checkout -b eda
 git push -u origin eda
 ```
 
 
-### Branch sync
+### Branch Sync
 ```
 git fectch origin
 git checkout -b eda origin/eda
 ```
 
 
-### Commit tasks
+### Commit Tasks
 ```
 git add eda_notebook.ipynb
 git commit -m "feat: Perform initial exploratory data analysis"
