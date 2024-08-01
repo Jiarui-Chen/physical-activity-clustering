@@ -13,3 +13,6 @@
 
 3. Refine bagging and boosting
 
+4. Consider data preprocessing from a time series/signal processing aspect and implement the following:
+    - Low pass filter or high pass filter
+
