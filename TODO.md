@@ -15,4 +15,5 @@
 
 4. Consider data preprocessing from a time series/signal processing aspect and implement the following:
     - Low pass filter or high pass filter
+        - High pass filter is working. In the preprocess.ipynb, updates are only made until Log Transformation. Still need to check any updates have to be done for dimensionality reduction. 
 
