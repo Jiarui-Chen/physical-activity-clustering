@@ -20,7 +20,7 @@ git push -u origin eda
 
 ### Branch Sync
 ```
-git fectch origin
+git fetch origin
 git checkout -b eda origin/eda
 ```
 
