@@ -17,3 +17,8 @@
     - Low pass filter or high pass filter
         - High pass filter is working. In the preprocess.ipynb, updates are only made until Log Transformation. Still need to check any updates have to be done for dimensionality reduction. 
 
+5. Consider feature engineering ideas:
+    - Local min max given window size
+    - Signal freq
+    - ...
+
